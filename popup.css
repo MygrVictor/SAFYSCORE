@@ -1,0 +1,83 @@
+.popup-container {
+  display: flex;
+  flex-direction: row; /* Disposition horizontale */
+  align-items: center;
+  padding: 20px; /* Augmenter l'espace autour */
+  justify-content: flex-start; /* Aligner à gauche */
+  gap: 20px; /* Espacement entre les éléments */
+  width: 250px; /* Largeur augmentée pour plus de confort */
+  background: linear-gradient(145deg, #f0f0f0, #e0e0e0); /* Fond dégradé léger */
+  border-radius: 12px; /* Coins arrondis plus marqués */
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row; /* Disposition horizontale des éléments */
+  align-items: center;
+  gap: 10px; /* Espacement entre les éléments */
+}
+
+.score-circle {
+  width: 60px; /* Augmenter la taille du cercle */
+  height: 60px;
+  border-radius: 50%; /* Cercle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px; /* Augmenter la taille de la police */
+  font-weight: bold;
+  color: white;
+}
+
+.score-A {
+  background-color: green;
+}
+
+.score-B {
+  background-color: orange;
+}
+
+.score-C {
+  background-color: yellow;
+}
+
+.score-D {
+  background-color: red;
+}
+
+.score-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Espacement entre les détails */
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  font-size: 14px; /* Augmenter la taille du texte */
+  gap: 5px; /* Espacement entre l'icône et le texte */
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-info {
+  position: absolute;
+  bottom: 10px;
+  right: 20px; /* Plus d'espace à droite */
+}
+
+.button-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px; /* Augmenter la taille de la police */
+}
+
+.arrow {
+  margin-left: 8px; /* Plus d'espace entre le texte et la flèche */
+}
